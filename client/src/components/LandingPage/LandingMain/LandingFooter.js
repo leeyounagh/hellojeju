@@ -176,7 +176,7 @@ const LandingFooter = (props) => {
               </div>
              
             </div>
-            <div style={{position:"absolute",top:"440px",left:"1430px",zIndex:'200'}}>
+            <div style={{position:"absolute",top:"400px",left:"1430px",zIndex:'200'}}>
       {totalImglength<Math.abs(position)?null:<GrNext 
  size="20px"style={{fontSize:"12px",border:"none"}} onClick={ImgRightMove} >다음</GrNext>}
  {/* <GrNext 
