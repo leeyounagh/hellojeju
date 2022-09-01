@@ -74,21 +74,21 @@ const TravelSpotpage = () => {
 
     return (
         <div className="TravelSPot_font" style={{display:'flex',justifyContent:'center',
-        width:'100%',height:'600px',background:'#e8f8ff'}}>
+        width:'100%',height:'750px',background:'#e8f8ff'}}>
           <img alt='제주지도' src='image/제주지도1.png'
-           width="800px" height="500px"
-            style={{position:'absolute',top:'70px',opacity:'0.9'}}></img>
+           width="1000px" height="600px"
+            style={{position:'absolute',top:'100px',opacity:'0.9'}}></img>
             <div  
             ><a onMouseEnter={nortthhide}
             onMouseLeave={nortthhide}
             style={{ width: "90px", height: "60px",position:'absolute',
-            top:'160px',left:"350px",color:'#506ea5',fontWeight:'900',
+            top:'260px',left:"400px",color:'#506ea5',fontWeight:'900',
             fontSize:'30px' }} href="/northspot" 
           >제주시</a></div>
 
               <div><a onMouseEnter={southhide}
             onMouseLeave={southhide} href="/southspot" style={{position:'absolute',
-            top:'400px',left:"880px",color:'#506ea5',fontWeight:'900',
+            top:'55%',left:"75%",color:'#506ea5',fontWeight:'900',
              fontSize:'30px',
              }}>서귀포시</a></div>
 
