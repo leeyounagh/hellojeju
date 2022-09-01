@@ -47,11 +47,11 @@ const TravelDetail = () => {
                              <span >
                              <img alt={item.repPhoto} 
                              src={item.repPhoto.photoid.imgpath} width='400px' height='420px'
-                             style={{position:'relative',left:"35%", top:'200px ',
+                             style={{position:'relative',left:"10%", top:'200px ',
                              marginRight:"20px",borderRadius:"30px"}}></img>
                              </span> 
                              <span>
-                                 <div style={{position:'absolute', top:'200px',left:"-40%",
+                                 <div style={{position:'absolute', top:'200px',left:"50%",
                                     width:'400px',height:'420px',border:"1px solid lightgray",paddingTop:"30px",borderRadius:"30px"}}>
                                      <h2 style={{display:"flex",justifyContent:"center"}}>{item.title}</h2>
                                      <br/>

@@ -40,7 +40,7 @@ width: 120%;
   overflow: hidden;
   padding: 1rem;
   width: 300px;
-  height: 400px;
+  height: 500px;
 //   min-height: 300px;
   text-align: center;
   color: #fff;
@@ -89,15 +89,15 @@ width: 120%;
 }
 .card:nth-child(2):before {
   background-image: url(https://i.pinimg.com/564x/90/98/6b/90986ba981ac5e7948f7214f76b71644.jpg);
-  background-size: 300px 420px;
+  background-size: 300px 600px;
 }
 .card:nth-child(3):before {
   background-image: url(https://i.pinimg.com/564x/0c/81/8e/0c818ed1ad957c9ba78cb21ca7071429.jpg);
-  background-size: 300px 420px;
+  background-size: 300px 600px;
 }
 .card:nth-child(4):before {
   background-image: url(https://i.pinimg.com/564x/4e/e3/d6/4ee3d661a35d6fd0a995bdeb0b994b04.jpg);
-  background-size: 300px 420px;
+  background-size: 300px 600px;
 }
 
 .content {
