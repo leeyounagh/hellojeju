@@ -37,13 +37,13 @@ const NavBar = (props) => {
             background:'#94b1b9'  }}>
                 <div>
                 <a href='/landing' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
-                  fontSize:"18px",fontWeight:'900',}}>Home</a>
+                  fontSize:"1.5rem",fontWeight:'900',}}>Home</a>
                 </div>
                 <div>
                 <a href='/register' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
-                   fontSize:"18px",fontWeight:'900',}}>Register</a>
+                   fontSize:"1.5rem",fontWeight:'900',}}>Register</a>
                 <a href='/login' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',   
-                  fontSize:"18px",fontWeight:'900',}}>Login</a>
+                  fontSize:"1.5rem",fontWeight:'900',}}>Login</a>
                 </div>
            
                
