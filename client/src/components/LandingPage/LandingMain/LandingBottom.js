@@ -15,12 +15,12 @@ const LandingBottom = () => {
         }
      
     return (
-<div className='bottom_body'style={{height:"600px",position:"relative",top:'-500px',
+<div className='bottom_body'style={{height:"600px",position:"relative",top:'-450px',
  display:"flex",justifyContent:'center', background: '#89a6ae'}}>
 
 
 <section class="container">
-      <div  style={{position:"absolute",left:"-230px",top:"130px",}}class="card_outer">
+      <div  style={{position:"absolute",left:"-70%",top:"130px",}}class="card_outer">
         <div class="card">
           <div class="content">
             <h2 class="title" style={{whiteSpace:"nowrap"}}>Travel Spot</h2>
