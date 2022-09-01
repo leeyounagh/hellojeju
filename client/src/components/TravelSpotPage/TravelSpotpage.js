@@ -20,7 +20,7 @@ const TravelSpotpage = () => {
     setsouthhover(!southhover)
    }
    function northmodal (){
-    if(!northhover){
+    if(northhover){
       return(
         <div style={{width:'300px',height:'300px',
                position:'absolute',left:"480px",top:'300px',background:"black",border:'1px solid black'
