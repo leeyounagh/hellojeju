@@ -197,6 +197,9 @@ $lighthouse-color: #d03b3f;
   justify-content: center;
   align-items: center;
   animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+  position: relative;
+  top:-50px;
+  font-size: 100px;
 }
 
 @media screen and (max-width: 500px) {
