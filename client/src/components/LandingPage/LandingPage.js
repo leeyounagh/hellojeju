@@ -27,7 +27,7 @@ const LandingPage = (props) => {
   const LandingFooterHandler = () =>{
     if(props.user.userData){
       return (
-        <div style={{background: '#89a6ae'}}>
+        <div style={{background: '#89a6ae',height:'400px'}}>
    <LandingFooter userdata={props.user.userData} ></LandingFooter>
         </div>
       )
@@ -36,7 +36,7 @@ const LandingPage = (props) => {
   }
 
     return (
-        <div style={{overflowX:"none",background:'#89a6ae'
+        <div style={{overflowX:"none",background:'#89a6ae',height:'120%'
           
         }}>
           

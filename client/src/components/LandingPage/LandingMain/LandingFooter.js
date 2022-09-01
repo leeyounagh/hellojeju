@@ -157,7 +157,7 @@ const LandingFooter = (props) => {
             {userRender()}
            
         </div>
-        <div style={{position:"absolute",top:"400px",left:"60px"}}>
+        <div style={{position:"absolute",top:"600px",left:"60px"}}>
         {imgPage===1?null:<GrPrevious size="20px"
                         style={{fontSize:"12px",border:"none",
                        }} onClick={ImgLeftMove}>이전</GrPrevious>}
@@ -165,7 +165,7 @@ const LandingFooter = (props) => {
   
 
 
-            <div className='footer_clip footer_font' style={{position:"absolute",top:"250px",left:"6%",width:"70%",
+            <div className='footer_clip footer_font' style={{position:"absolute",top:"450px",left:"6%",width:"70%",
         }}>
                
               <div style={{display:"flex"}}>
@@ -176,7 +176,7 @@ const LandingFooter = (props) => {
               </div>
              
             </div>
-            <div style={{position:"absolute",top:"400px",left:"1430px",zIndex:'200'}}>
+            <div style={{position:"absolute",top:"600px",left:"1430px",zIndex:'200'}}>
       {totalImglength<Math.abs(position)?null:<GrNext 
  size="20px"style={{fontSize:"12px",border:"none"}} onClick={ImgRightMove} >다음</GrNext>}
  {/* <GrNext 
