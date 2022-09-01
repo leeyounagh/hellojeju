@@ -50,12 +50,12 @@ const TravelSpotpage = () => {
     if(!southhover){
       return(
         <div style={{width:'300px',height:'300px',
-               position:'absolute',left:"1250px",top:'370px',background:"black",
+               position:'absolute',left:"850px",top:'70px',background:"black",
               
               
               }} > <img
                 style={{  width: '200px', height: '200px',
-               position:'relative',left:'0px',top:'10px'}}
+               position:'relative',left:'50px',top:'10px'}}
                 src="image/남일러스트.jpg"
                 alt="Test Img"
                 /><br/>
@@ -89,7 +89,7 @@ const TravelSpotpage = () => {
 
               <div><a onMouseEnter={southhide}
             onMouseLeave={southhide} href="/southspot" style={{position:'absolute',
-            top:'55%',left:"75%",color:'#506ea5',fontWeight:'900',
+            top:'57%',left:"75%",color:'#506ea5',fontWeight:'900',
              fontSize:'30px',
              }}>서귀포시</a></div>
 
