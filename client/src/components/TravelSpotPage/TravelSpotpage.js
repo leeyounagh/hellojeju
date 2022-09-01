@@ -47,10 +47,10 @@ const TravelSpotpage = () => {
 
 
    function southmodal (){
-    if(!southhover){
+    if(southhover){
       return(
         <div style={{width:'300px',height:'300px',
-               position:'absolute',left:"850px",top:'70px',background:"black",
+               position:'absolute',left:"660px",top:'150px',background:"black",
               
               
               }} > <img
