@@ -47,7 +47,7 @@ const TravelSpotpage = () => {
 
 
    function southmodal (){
-    if(southhover){
+    if(!southhover){
       return(
         <div style={{width:'300px',height:'300px',
                position:'absolute',left:"1250px",top:'370px',background:"black",
@@ -55,7 +55,7 @@ const TravelSpotpage = () => {
               
               }} > <img
                 style={{  width: '200px', height: '200px',
-               position:'relative',left:'50px',top:'10px'}}
+               position:'relative',left:'0px',top:'10px'}}
                 src="image/남일러스트.jpg"
                 alt="Test Img"
                 /><br/>

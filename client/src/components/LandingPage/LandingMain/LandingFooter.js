@@ -139,8 +139,8 @@ const LandingFooter = (props) => {
                            </a>
                            <a href={`/detail/${item.contentsid}`}>
                            <div style={{background:"black",position:'relative',top:'-50px',
-                fontSize:'5px',padding:'15px',height:"50px",opacity:"0.5",zIndex:'10'
-                }}> <h2 style={{textAlign:"center",fontSize:"10px",color:'white',zIndex:'1',width:'160px',
+                padding:'15px',height:"50px",opacity:"0.5",zIndex:'10',width:'250px'
+                }}> <h2 style={{textAlign:"center",fontSize:"12px",color:'white',zIndex:'1',width:'250px',
                 height:"100px"}}>{item.title}</h2></div>
                             </a>    
                         </div>
