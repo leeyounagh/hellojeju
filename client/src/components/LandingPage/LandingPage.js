@@ -42,7 +42,7 @@ const LandingPage = (props) => {
           
 <LandingMain></LandingMain>
           
-<LandingMiddle></LandingMiddle>
+{/* <LandingMiddle></LandingMiddle> */}
       <LandingBottom></LandingBottom>
      {LandingFooterHandler()}
 

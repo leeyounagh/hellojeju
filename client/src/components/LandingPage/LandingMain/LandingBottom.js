@@ -15,7 +15,7 @@ const LandingBottom = () => {
         }
      
     return (
-<div className='bottom_body'style={{height:"600px",position:'absolute',top:"1230px",left:"0px",
+<div className='bottom_body'style={{height:"600px",position:"relative",top:'-500px',
  display:"flex",justifyContent:'center', background: '#89a6ae'}}>
 
 
