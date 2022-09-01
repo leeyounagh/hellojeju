@@ -20,10 +20,10 @@ const TravelSpotpage = () => {
     setsouthhover(!southhover)
    }
    function northmodal (){
-    if(northhover){
+    if(!northhover){
       return(
         <div style={{width:'300px',height:'300px',
-               position:'absolute',left:"450px",top:'100px',background:"black",border:'1px solid black'
+               position:'absolute',left:"480px",top:'300px',background:"black",border:'1px solid black'
               
               }} > <img
                 style={{  width: '200px', height: '200px',
@@ -50,7 +50,8 @@ const TravelSpotpage = () => {
     if(southhover){
       return(
         <div style={{width:'300px',height:'300px',
-               position:'absolute',left:"920px",top:'100px',background:"black",
+               position:'absolute',left:"1250px",top:'370px',background:"black",
+              
               
               }} > <img
                 style={{  width: '200px', height: '200px',
@@ -83,7 +84,7 @@ const TravelSpotpage = () => {
             onMouseLeave={nortthhide}
             style={{ width: "90px", height: "60px",position:'absolute',
             top:'260px',left:"400px",color:'#506ea5',fontWeight:'900',
-            fontSize:'30px' }} href="/northspot" 
+            fontSize:'30px', }} href="/northspot" 
           >제주시</a></div>
 
               <div><a onMouseEnter={southhide}
