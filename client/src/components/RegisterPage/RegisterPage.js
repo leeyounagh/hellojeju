@@ -80,7 +80,7 @@ const RegisterPage = (props) => {
             </form>
        
 
-            <div style={{position:'relative',left:'50px'}}class="spring" role="img" aria-label="Animated cartoon showing a sunny scene with a field with flowers and a flying bee."></div>
+            <div style={{position:'relative',left:'50px',top:'250px'}}class="spring" role="img" aria-label="Animated cartoon showing a sunny scene with a field with flowers and a flying bee."></div>
 
             </div>
         
