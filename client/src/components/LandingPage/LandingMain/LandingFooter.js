@@ -149,7 +149,7 @@ const LandingFooter = (props) => {
      }
     
     return (
-        <div className='footer_font'style={{height:"500px",position:"absolute",top:'1800px',
+        <div className='footer_font'style={{height:"700px",position:"relative",top:'100px',
     width:"120%", background: '#89a6ae'}}>
 
         <div style={{position:"relative",top:"15%",left:"6%"}}>
