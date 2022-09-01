@@ -18,7 +18,7 @@ const LandingFooter = (props) => {
     const [data,setData] =useState([])
     const [position,setPosition] =useState(0)
     const [imgPage,setImgPage] =useState(1);
-    const totalImglength = 200*data.length;
+    const totalImglength = 250*data.length;
 
 
 
@@ -134,7 +134,7 @@ const LandingFooter = (props) => {
                     return(
                         <div style={ImgMove} key={i}>
                            <a href={`/detail/${item.contentsid}`}>
-                           <img style={{width:"200px",height:"150px"}} alt={item.title}src={item.repPhoto.photoid.thumbnailpath}></img>
+                           <img style={{width:"250px",height:"250px"}} alt={item.title}src={item.repPhoto.photoid.thumbnailpath}></img>
                            </a>
                            <a href={`/detail/${item.contentsid}`}>
                            <div style={{background:"black",position:'relative',top:'-50px',
@@ -149,7 +149,7 @@ const LandingFooter = (props) => {
      }
     
     return (
-        <div className='footer_font'style={{height:"700px",position:"relative",top:'100px',
+        <div className='footer_font'style={{height:"700px",position:"relative",top:'-500px',
     width:"120%", background: '#89a6ae'}}>
 
         <div style={{position:"relative",top:"15%",left:"6%"}}>
