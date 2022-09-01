@@ -49,7 +49,7 @@ const LandingMain = () => {
 {/* 
            <LandingMainRight></LandingMainRight> */}
       </div>
-      <div style={{position:"absolute" ,top:"170px",left:"400px"}}className="background lighthouse_style ">  
+      <div style={{position:"relative" ,top:"-600px",left:"35%"}}className="background lighthouse_style ">  
  
           <div class="vale">
           </div>
