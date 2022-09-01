@@ -66,7 +66,8 @@ const LandingFooter = (props) => {
         top:"20px",
         left:`${position}px`,
         transition:'1.0s all ease-out',
-        margin:'5px'
+        margin:'5px',
+        background:'89a6ae'
      }
      const ImgLeftMove = () =>{
         if(position===0){
@@ -164,7 +165,7 @@ const LandingFooter = (props) => {
   
 
 
-            <div className='footer_clip footer_font' style={{position:"absolute",top:"150px",left:"6%",width:"70%",
+            <div className='footer_clip footer_font' style={{position:"absolute",top:"350px",left:"6%",width:"70%",
         }}>
                
               <div style={{display:"flex"}}>
