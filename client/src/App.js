@@ -21,6 +21,8 @@ import CommunityUpdate from './components/TravelCommunity/CommunityUpdate';
 import CommunityDetail from './components/TravelCommunity/CommunityDetail';
 import UserTravelStyle from './components/MyTravelUpdate/UserStyle/UserTravelStyle'
 import LandingFooter from './components/LandingPage/LandingMain/LandingFooter';
+import { BrowserView, MobileView } from 'react-device-detect';
+import MobilePage from './components/MobilePage';
 function App() {
   const Header = () => {
     if (window.location.pathname === '/') return null;
@@ -33,8 +35,11 @@ function App() {
     <div className="App" >
    
       <div>
-        
-           <Header></Header>
+        <MobileView>
+          <MobilePage></MobilePage>
+        </MobileView>
+        <BrowserView>
+        <Header></Header>
       {/* <NavBar></NavBar> */}
        
        <Routes>
@@ -67,6 +72,8 @@ function App() {
           
          
         </Routes>
+        </BrowserView>
+    
       
     
      
