@@ -274,11 +274,11 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
             <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',background:"rgb(248, 248, 248)",
           }}>
-               <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
+               <Scrollbars style={{ width: 500, height: 500, color:"black" }}>
                {
                hotel.map((item,i)=>{
                     return(
-                       <div>
+                       <div style={{height:'500px'}}>
                          
                            <div style={{width:'500px',height:'150px',margin:'10px',
                           background:"white"}}>
@@ -338,11 +338,11 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
   <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',
           background:"rgb(248, 248, 248)"}}>
-             <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
+             <Scrollbars style={{ width: 500, height: 500, color:"black" }}>
              {
                shopping.map((item,i)=>{
                     return(
-                      <div>
+                      <div style={{height:'500px'}}>
                            <div style={{width:'500px',height:'150px',margin:'10px',
                           background:"white"}}>
                            <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
@@ -391,11 +391,11 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
           <div className='map_font'> 
   <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',background:"rgb(248, 248, 248)",
-         }}>   <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
+         }}>   <Scrollbars style={{ width: 500, height: 500, color:"black" }}>
              {
                restaurant.map((item,i)=>{
                     return(
-                      <div>
+                      <div style={{height:'500px'}}>
                       <div style={{width:'500px',height:'150px',margin:'10px',
                      background:"white"}}>
                       <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
@@ -445,11 +445,11 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
 <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",border:"1px solid white",
         opacity:"4",position:"relative",top:'50px',border:'1px solid black',background:"rgb(248, 248, 248)",
        }}>
-           <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
+           <Scrollbars style={{ width: 500, height: 500, color:"black" }}>
            {
              spot.map((item,i)=>{
                   return(
-                    <div>
+                    <div style={{height:'500px'}}>
                     <div style={{width:'500px',height:'150px',margin:'10px',
                    background:"white"}}>
                     <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
