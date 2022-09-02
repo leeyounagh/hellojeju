@@ -235,10 +235,10 @@ const SouthHotSpot = () => {
           <div  >
           <span >
           <span  >
-          <input   className='card_name' style={{position:"relative",
-          left:"850px",top:"270px",width:"150px",
+          <input className='card_name' style={{position:"relative",
+          left:"1150px",top:"220px",width:"150px",
           height:"25px",borderRadius:"25px",paddingLeft:"5px",
-        paddingTop:"3px",fontSize:"15px"}} type="text" placeholder='🍳'   onChange={(e)=>{
+        paddingTop:"3px",fontSize:"15px"}} type="text" placeholder='🍳'  onChange={(e)=>{
             onChangeSearch(e)
             
           }}></input></span>

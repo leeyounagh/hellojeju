@@ -30,8 +30,8 @@ const customStyles = {
   };
   
   const containerStyle = {
-    width: '700px',
-    height: '400px'
+    width: '140%',
+    height: '500px'
   };
  
 const Recomendation = (props) => {
@@ -271,7 +271,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
       if(Number(datanumber)===1 ){
         return(
         <div className='map_font'>
-            <div style={{width:"500px",height:"400px",background:'white',zIndex:"450",
+            <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',background:"rgb(248, 248, 248)",
           }}>
                <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
@@ -528,8 +528,8 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
 
     return (
         <div style={{width:'900px',height:"400px",paddingBottom:'50px'}}>
-            <div style={{display:'flex',position:'relative',left:'435px',top:'-150px'}}>
-                <h2>Hello 제주 추천</h2>
+            <div style={{display:'flex',position:'relative',left:'435px',top:'-100px'}}>
+                <h1>Hello 제주 추천</h1>
             </div>
             <div style={{display:'flex',justifyContent:"space-around",position:'relative',
         top:'50px',left:'0px'}}>
