@@ -278,7 +278,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
                {
                hotel.map((item,i)=>{
                     return(
-                       <div style={{height:'500px'}}>
+                       <div>
                          
                            <div style={{width:'500px',height:'150px',margin:'10px',
                           background:"white"}}>
@@ -342,7 +342,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
              {
                shopping.map((item,i)=>{
                     return(
-                      <div style={{height:'500px'}}>
+                      <div>
                            <div style={{width:'500px',height:'150px',margin:'10px',
                           background:"white"}}>
                            <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
@@ -395,7 +395,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
              {
                restaurant.map((item,i)=>{
                     return(
-                      <div style={{height:'500px'}}>
+                      <div >
                       <div style={{width:'500px',height:'150px',margin:'10px',
                      background:"white"}}>
                       <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
@@ -449,7 +449,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
            {
              spot.map((item,i)=>{
                   return(
-                    <div style={{height:'500px'}}>
+                    <div >
                     <div style={{width:'500px',height:'150px',margin:'10px',
                    background:"white"}}>
                     <img style={{marginTop:'10px'}} alt= {item.title} src= {item.thumbnailpath}
