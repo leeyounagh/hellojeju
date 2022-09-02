@@ -30,65 +30,101 @@ const NavBar = (props) => {
     // }
   
    
-    if(user.userData&&!user.userData.isAuth){
-        return (
-            <div className="nav_text2" style={{position:'fixed',top:'0px',width:'100%',height:'10%',
-            left:'0px', display:'flex', justifyContent:'space-around',padding:'20px',zIndex:'300',
-            background:'#94b1b9'  }}>
-                <div>
-                <a href='/landing' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
-                  fontSize:"1.5rem",fontWeight:'900',}}>Home</a>
-                </div>
-                <div>
-                <a href='/register' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
-                   fontSize:"1.5rem",fontWeight:'900',}}>Register</a>
-                <a href='/login' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',   
-                  fontSize:"1.5rem",fontWeight:'900',}}>Login</a>
-                </div>
+    // if(user.userData&&!user.userData.isAuth){
+    //     return (
+    //         <div className="nav_text2" style={{position:'fixed',top:'0px',width:'100%',height:'10%',
+    //         left:'0px', display:'flex', justifyContent:'space-around',padding:'20px',zIndex:'300',
+    //         background:'#94b1b9'  }}>
+    //             <div>
+    //             <a href='/landing' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
+    //               fontSize:"1.5rem",fontWeight:'900',}}>Home</a>
+    //             </div>
+    //             <div>
+    //             <a href='/register' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',
+    //                fontSize:"1.5rem",fontWeight:'900',}}>Register</a>
+    //             <a href='/login' className="nav_text" style={{marginRight:'10px',marginTop:"30px",color:'#f3efe6',   
+    //               fontSize:"1.5rem",fontWeight:'900',}}>Login</a>
+    //             </div>
            
                
-            </div>
-        );
-    }else{
-        return (
-            <div className="nav_text2" style={{position:'fixed',top:'0px',width:'100%',left:'0px',height:'60px',
-          display:'flex', justifyContent:'space-around',padding:'10px',color:'black',  zIndex:'500',
-        background:'#94b1b9' }}>
-              <div>
-              <a href='/landing' className="nav_text"style={{marginRight:'10px',marginTop:"20px",color:'#f3efe6',weight:'50',
-              fontSize:"18px",fontWeight:'900'
-           }}>Home</a>
-              </div>
-                <div>
-                <a href='/travelspot' className="nav_text" style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'50',
-              fontSize:"18px",fontWeight:'900'}}>TravelSpot</a>
+    //         </div>
+    //     );
+    // }else{
+    //     return (
+    //         <div className="nav_text2" style={{position:'fixed',top:'0px',width:'100%',left:'0px',height:'60px',
+    //       display:'flex', justifyContent:'space-around',padding:'10px',color:'black',  zIndex:'500',
+    //     background:'#94b1b9' }}>
+    //           <div>
+    //           <a href='/landing' className="nav_text"style={{marginRight:'10px',marginTop:"20px",color:'#f3efe6',weight:'50',
+    //           fontSize:"18px",fontWeight:'900'
+    //        }}>Home</a>
+    //           </div>
+    //             <div>
+    //             <a href='/travelspot' className="nav_text" style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'50',
+    //           fontSize:"18px",fontWeight:'900'}}>TravelSpot</a>
               
-                <a href='/travelnews' className="nav_text" style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
-              fontSize:"18px",fontWeight:'900'}}>News</a>
+    //             <a href='/travelnews' className="nav_text" style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+    //           fontSize:"18px",fontWeight:'900'}}>News</a>
              
-                <a href='/community'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
-              fontSize:"18px",fontWeight:'900'}}>community</a>
+    //             <a href='/community'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+    //           fontSize:"18px",fontWeight:'900'}}>community</a>
                   
-                  <a href='/userstyle'  className="nav_text"  style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'70',
-              fontSize:"18px",fontWeight:'900',color:'#f58d9c'}}><BsHeartFill></BsHeartFill></a>
+    //               <a href='/userstyle'  className="nav_text"  style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'70',
+    //           fontSize:"18px",fontWeight:'900',color:'#f58d9c'}}><BsHeartFill></BsHeartFill></a>
               
 
                 
 
 
-                <a href='/mytravel'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'70',
-              fontSize:"17px",fontWeight:'900'
-              ,position:'absolute',left:'875px',top:'-15px'}}>MyTravel</a>
-                <a onClick={logoutHandler} className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
-              fontSize:"18px",fontWeight:'900' ,position:'absolute',left:'965px',top:'-15px'}} >logout</a>
-                </div>
+    //             <a href='/mytravel'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'70',
+    //           fontSize:"17px",fontWeight:'900'
+    //           ,position:'absolute',left:'875px',top:'-15px'}}>MyTravel</a>
+    //             <a onClick={logoutHandler} className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+    //           fontSize:"18px",fontWeight:'900' ,position:'absolute',left:'965px',top:'-15px'}} >logout</a>
+    //             </div>
             
                 
                
-            </div>
-        );
-    }
-  
+    //         </div>
+    //     );
+    // }
+    return (
+      <div className="nav_text2" style={{position:'fixed',top:'0px',width:'100%',left:'0px',height:'60px',
+    display:'flex', justifyContent:'space-around',padding:'10px',color:'black',  zIndex:'500',
+  background:'#94b1b9' }}>
+        <div>
+        <a href='/landing' className="nav_text"style={{marginRight:'10px',marginTop:"20px",color:'#f3efe6',weight:'50',
+        fontSize:"18px",fontWeight:'900'
+     }}>Home</a>
+        </div>
+          <div>
+          <a href='/travelspot' className="nav_text" style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'50',
+        fontSize:"18px",fontWeight:'900'}}>TravelSpot</a>
+        
+          <a href='/travelnews' className="nav_text" style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+        fontSize:"18px",fontWeight:'900'}}>News</a>
+       
+          <a href='/community'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+        fontSize:"18px",fontWeight:'900'}}>community</a>
+            
+            <a href='/userstyle'  className="nav_text"  style={{marginRight:'30px',marginTop:"50px",color:'#f3efe6',weight:'70',
+        fontSize:"18px",fontWeight:'900',color:'#f58d9c'}}><BsHeartFill></BsHeartFill></a>
+        
+
+          
+
+
+          <a href='/mytravel'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'70',
+        fontSize:"17px",fontWeight:'900'
+        }}>MyTravel</a>
+          <a onClick={logoutHandler} className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
+        fontSize:"18px",fontWeight:'900' ,}} >logout</a>
+          </div>
+      
+          
+         
+      </div>
+  );
     
       };
   
