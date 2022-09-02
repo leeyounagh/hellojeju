@@ -224,7 +224,7 @@ const NorthHotSpotPage = () => {
       
     <div >
         <div className='travel_font'
-        style={{position:'absolute',top:'150px', left:'600px'}}>
+        style={{position:'relative',top:'150px',left:'50%'}}>
             <h1 className='nav_text' >제주시</h1>
         </div>
     
@@ -295,8 +295,8 @@ const NorthHotSpotPage = () => {
      </div>
      <div className='heart_all' style={{position:'fixed',top:"1600px",marginTop:"100px",left:'1050px',top:{navbarposition}
   , width:"100px",height:"500px",cursor:'pointer' }}> 
-            <div style={{position:"absolute",top:"400px",left:"30px",zIndex:"300"}}>
-            <FaArrowAltCircleUp style={{width:"30px",height:"30px"}}onClick={scrollTop}></FaArrowAltCircleUp>
+            <div style={{position:"absolute",top:"400px",left:"360px",zIndex:"300"}}>
+            <FaArrowAltCircleUp style={{width:"40px",height:"40px"}}onClick={scrollTop}></FaArrowAltCircleUp>
             </div>
 
             <div class="heart-box">

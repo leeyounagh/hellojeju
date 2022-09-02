@@ -16,7 +16,7 @@ const Search = (props) => {
        <span >
           <span  >
           <input style={{position:"relative",
-          left:"850px",top:"270px",
+          left:"1150px",top:"210px",
           height:"30px"}} type="text" placeholder='검색..'  onChange={(e)=>{
             onChangeSearch(e)
             

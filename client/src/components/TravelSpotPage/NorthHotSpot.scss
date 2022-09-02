@@ -63,6 +63,7 @@
   
   .heart {
     position: absolute;
+    left:340px;
     &:nth-child(1) svg {
       opacity: 0;
       -webkit-animation: heartUp 1.4s infinite ease-in;
