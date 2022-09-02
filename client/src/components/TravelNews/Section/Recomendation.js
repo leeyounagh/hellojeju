@@ -317,7 +317,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
             
            </div>
            <div style={{width:"670px",height:"400px",zIndex:"450",
-          opacity:"4",position:"relative",top:'-350px',left:'500px'}}>
+          opacity:"4",position:"relative",top:'-450px',left:'500px'}}>
 
             {
              <Map data ={hotel} ></Map>
@@ -335,7 +335,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
       }else if(Number(datanumber) ===2 ){
         return(
           <div className='map_font'>
-  <div style={{width:"500px",height:"400px",background:'white',zIndex:"450",
+  <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',
           background:"rgb(248, 248, 248)"}}>
              <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
@@ -376,7 +376,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
             
            </div>
            <div style={{width:"670px",height:"400px",zIndex:"450",
-          opacity:"4",position:"relative",top:'-350px',left:'500px',background:"rgb(248, 248, 248)"}}>
+          opacity:"4",position:"relative",top:'-450px',left:'500px',background:"rgb(248, 248, 248)"}}>
 
         <Map data ={shopping} ></Map>
           {/* <GMap data ={shopping} ></GMap> */}
@@ -389,7 +389,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
       } else if(Number(datanumber) ===3){
         return(
           <div className='map_font'> 
-  <div style={{width:"500px",height:"400px",background:'white',zIndex:"450",
+  <div style={{width:"500px",height:"500px",background:'white',zIndex:"450",
           opacity:"4",position:"relative",top:'50px',background:"rgb(248, 248, 248)",
          }}>   <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
              {
@@ -427,7 +427,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
             </Scrollbars>
            </div>
            <div style={{width:"670px",height:"400px",zIndex:"450",border:"1px solid black",
-          opacity:"4",position:"relative",top:'-350px',left:'500px'}}>
+          opacity:"4",position:"relative",top:'-450px',left:'500px'}}>
 {/*               
                <GMap data ={restaurant}></GMap> */}
               
@@ -442,7 +442,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
         Number(datanumber)===4
       )       return(
         <div className='map_font'>
-<div style={{width:"500px",height:"400px",background:'white',zIndex:"450",border:"1px solid white",
+<div style={{width:"500px",height:"500px",background:'white',zIndex:"450",border:"1px solid white",
         opacity:"4",position:"relative",top:'50px',border:'1px solid black',background:"rgb(248, 248, 248)",
        }}>
            <Scrollbars style={{ width: 500, height: 400, color:"black" }}>
@@ -483,7 +483,7 @@ const options = { closeBoxURL: '', enableEventPropagation: true };
           
          </div>
          <div style={{width:"670px",height:"400px",zIndex:"450",border:"1px solid black",
-        opacity:"4",position:"relative",top:'-350px',left:'500px'}}>
+        opacity:"4",position:"relative",top:'-450px',left:'500px'}}>
          
           {/* <GMap data ={spot} ></GMap> */}
           <Map data ={spot} ></Map>
