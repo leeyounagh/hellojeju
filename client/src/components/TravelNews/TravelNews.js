@@ -152,7 +152,7 @@ const TravelNews = () => {
        
            <div className='recomm' style={{width:'600px',position:'absolute',left:'-130px',top:'500px'}}>
             <h1 style={{width:'600px',position:'absolute',left:'600px',top:'100px',fontSize:'40px'}}>갤러리</h1>
-               <div  style={{width:'600px',position:'absolute',left:'200px',top:'160px'}}> 
+               <div  style={{width:'600px',position:'absolute',left:'300px',top:'160px'}}> 
                <Gallery></Gallery>
                </div>
          
