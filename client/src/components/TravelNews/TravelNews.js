@@ -69,10 +69,10 @@ const TravelNews = () => {
         overflowX:'hidden'}}>
         <div className='recomm1'>
             <div style={{position:'absolute', top:"150px",left:'250px'}}>
-           <h2 style={{position:"relative" , left:"-40px"}}>에디터가 추천하는 여행지</h2>
+           <h2 style={{position:"relative" , left:"0px"}}>에디터가 추천하는 여행지</h2>
            <div> 
 
-        <div  style={{width:'600px',position:'absolute',left:'630px',top:'10px',height:'300px'}}>
+        <div  style={{width:'600px',position:'absolute',left:'760px',top:'50px',height:'300px'}}>
            <div style={{marginBottom:"10px"}}>
             <h2>video clip</h2>
            </div>
@@ -140,9 +140,9 @@ const TravelNews = () => {
                 
         </div>
       
-        <div style={{width:'600px',position:'absolute',left:'-50px',top:'50px',
+        <div style={{width:'600px',position:'absolute',left:'0px',top:'50px',
         borderRadius:"50px"}}>
-        <video style={{width:'500px', borderRadius:"30px"}} id="vid" src="video/제주도추천.mp4" controls></video>
+        <video style={{width:'600px', borderRadius:"30px"}} id="vid" src="video/제주도추천.mp4" controls></video>
         </div>
 
       
@@ -151,13 +151,13 @@ const TravelNews = () => {
         </div>
        
            <div className='recomm' style={{width:'600px',position:'absolute',left:'-130px',top:'500px'}}>
-            <h1 style={{width:'600px',position:'absolute',left:'470px',top:'10px',fontSize:'40px'}}>갤러리</h1>
-               <div  style={{width:'600px',position:'absolute',left:'200px',top:'0px'}}> 
+            <h1 style={{width:'600px',position:'absolute',left:'600px',top:'100px',fontSize:'40px'}}>갤러리</h1>
+               <div  style={{width:'600px',position:'absolute',left:'200px',top:'160px'}}> 
                <Gallery></Gallery>
                </div>
          
           </div>
-           <div style={{width:'600px',position:'absolute',left:'0px',top:'1000px'}}>
+           <div style={{width:'600px',position:'absolute',left:'0px',top:'1400px'}}>
        <Recomendation></Recomendation>
            </div>
 
