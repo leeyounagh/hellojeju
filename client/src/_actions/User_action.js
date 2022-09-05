@@ -15,7 +15,7 @@ import {
 
 export function loginUser(dataToSubmit) {
 
-    const request = axios.post('/api/users/login', dataToSubmit)
+    const request = axios.post(' https://hellojeju.herokuapp.com/api/users/login', dataToSubmit)
         .then(response => response.data)
 
     return {
