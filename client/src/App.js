@@ -31,6 +31,18 @@ function App() {
       );
   }
 
+  fetch('/api/users/login')
+  .then((response) => {
+    if(response.ok) {
+      return response.json();
+    }  
+    throw new Error('Network response was not ok.');
+  }).then((data) => {
+    console.log(JSON.stringify(data));
+  }).catch((error) => {
+    console.log(`error: ${error}`)
+});
+
   return (
     <div className="App" >
    
