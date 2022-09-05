@@ -82,7 +82,7 @@ const ImageRendering = () =>{
               
                 <img key={index} style={{minWidth:'100px', width: '200px', height:'200px'}} 
  
- src = {`http://localhost:5000/${image}`} />
+ src = {`http://hellojeju.herokuapp.com//${image}`} />
                 
               
  

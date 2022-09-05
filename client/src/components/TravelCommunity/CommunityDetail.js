@@ -89,7 +89,7 @@ const CommunityDetail = (props) => {
                     {Img.map((item,index)=>{
                         return(
                             <div>
-                                <img alt={index} src={`http://localhost:5000/${item}`
+                                <img alt={index} src={`http://hellojeju.herokuapp.com//${item}`
                  } style={{maxWidth:'500px',maxWidth:'500px'}}></img>
                             </div>
                         )
