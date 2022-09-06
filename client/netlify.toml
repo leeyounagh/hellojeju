@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/proxy/*"
-  to = "https://openapi.naver.com/:splat"
+  to = "https://hellojeju.herokuapp.com/"
   status = 200
   force = true
