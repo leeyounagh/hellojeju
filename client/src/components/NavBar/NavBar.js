@@ -78,7 +78,7 @@ const NavBar = (props) => {
 
                 <a href='/mytravel'  className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'70',
             fontSize:"1.5rem",fontWeight:'900'
-            }}>MyTravel</a>
+             }}>MyTravel</a>
                 <a onClick={logoutHandler} className="nav_text"  style={{marginRight:'30px',marginTop:"30px",color:'#f3efe6',weight:'50',
               fontSize:"1.5rem",fontWeight:'900' }} >logout</a>
                 </div>
