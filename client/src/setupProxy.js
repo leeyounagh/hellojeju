@@ -5,7 +5,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://hellojeju.herokuapp.com/',
+      target: 'https://hellojeju.herokuapp.com/api/',
       changeOrigin: true,
     })
   );
