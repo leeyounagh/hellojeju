@@ -1,2 +1,7 @@
 /* /index.html 200
 /posts https://hellojeju.herokuapp.com/ 200!
+[[redirects]]
+  from = "/proxy/*"
+  to = "https://hellojeju.herokuapp.com/"
+  status = 200
+  force = true
