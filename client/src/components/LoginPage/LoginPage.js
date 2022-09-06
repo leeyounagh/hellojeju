@@ -7,16 +7,16 @@ import './Login.scss'
 
 
 const LoginPage = (props) => {
-   const dispatch =useDispatch()
-   const NaviGate = useNavigate()
-    const [Email,setEmail] =useState("")
-    const [Password,setPassword] =useState("")
+   const dispatch =useDispatch();
+   const NaviGate = useNavigate();
+    const [Email,setEmail] =useState("");
+    const [Password,setPassword] =useState("");
   
     const onEmailHandler = (event) =>{
-        setEmail(event.currentTarget.value)
+        setEmail(event.currentTarget.value);
     }
     const onPasswordHandler = (event) =>{
-        setPassword(event.currentTarget.value)
+        setPassword(event.currentTarget.value);
     }
     const onSubmitHandler = (event) => {
         event.preventDefault();
@@ -29,9 +29,9 @@ const LoginPage = (props) => {
         dispatch(loginUser(body))
             .then(response => {
                 if (response.payload.loginSuccess) {
-                    NaviGate('/landing')
+                    NaviGate('/landing');
                 } else {
-                    alert('Error˝')
+                    alert('Error˝');
                 }
             })
 
