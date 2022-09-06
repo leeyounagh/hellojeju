@@ -43,8 +43,8 @@ const LoginPage = (props) => {
             display: 'flex', justifyContent: 'center', alignItems: 'center'
             , width: '100%', height: '120vh'
         }}>
-            <form className='login_font' style={{display:'flex',flexDirection:'column'}}
-            onSubmit={onSubmitHandler}>
+            <form method="post" name="Contact Form" className='login_font' style={{display:'flex',flexDirection:'column'}}
+            onSubmit={onSubmitHandler} netlify>
                 <label style={{zIndex:"100",
                position:"relative",left:"-20px",
                weight:"100",top:"30px"}}>Email</label>
