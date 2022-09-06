@@ -15,17 +15,7 @@ app.use(cookieParser())
 mongoose.connect('mongodb+srv://admin:qwer1234@cluster0.l9bb7.mongodb.net/travelapp?retryWrites=true&w=majority'
 ).then(()=>console.log('mongoDb connected'))
 .catch(err=>console.log(err))
-const cors = require('cors')
- 
 
-
-app.use(cors({
-
-  origin: true,
-
-  credentials: true
-
-}));
 app.get('/',(req,res)=>res.send('helloworld'))
 app.use(express.static('uploads'));
 app.post('/api/users/register',(req,res)=>{
